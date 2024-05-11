@@ -1,26 +1,6 @@
-# crt.sh
-Search in crt.sh and extract domains and subdomains with organization name.
-
-```
-USAGE: ./crt.sh [target] [-b|--both]
-
-Search in crt.sh for domains and subdomains with organization name.
-
-Switches:
-	-b,--both	show both 'comman_name' and 'name_value' of certificate
-```
-
-
-### Usage
-1. Clone repo:
+# Example
 ```bash
-git clone https://github.com/m333rl1n/crt.sh.git && cd crt.sh
-```
-2. Search an organization name:
-```bash
-./crt.sh "Ford"
-
-# result
+$ ./crt.sh "Ford"
 www.donchalmersford.com
 store.kms-inc.net
 *.idl-iaa.com
