@@ -4,7 +4,7 @@ query='.common_name'
 
 if [ $# -lt 1 ]; then
     echo "USAGE: $0 [target] [-a|-all]"
-    echo -e "\nSearch in crt.sh for domains and subdomains with organization name."
+    echo -e "\nSearch in crt.sh with organization name or domain name."
     echo -e "\nSwitches:"
     echo -e "\t-a,-all\tshow 'comman_name' and 'name_value' of certificate"
     exit 0
